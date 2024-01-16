@@ -1,0 +1,24 @@
+{
+  "name": "me.kundan",
+  "version": "1.0.0",
+  "description": "My Portfolia",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundankrgupta1/me.kundan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type" : "module",
+  "bugs": {
+    "url": "https://github.com/kundankrgupta1/me.kundan/issues"
+  },
+  "homepage": "https://github.com/kundankrgupta1/me.kundan#readme"
+}
