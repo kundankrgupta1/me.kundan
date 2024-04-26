@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar"
 import AllRoutes from "./Routes/AllRoutes"
 
@@ -15,6 +16,9 @@ const App = () => {
 		<div>
 			<Navbar />
 			<AllRoutes />
+			<Text fontSize={'40px'} textAlign={'center'}>
+				My portfolio under updation....
+			</Text>
 		</div>
 	)
 }
