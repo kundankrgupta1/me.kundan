@@ -28,15 +28,15 @@
 	],
 	"social": [
 		{
-			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/img/git.png",
+			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/git.png",
 			"link": "https://github.com/kundankrgupta1"
 		},
 		{
-			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/img/li.png",
+			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/li.png",
 			"link": "https://www.linkedin.com/in/kundankrgupta1/"
 		},
 		{
-			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/img/icons8-email-96.png",
+			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/icons8-email-96.png",
 			"link": "mailto:kundanprogrammerz@gmail.com"
 		}
 	]
