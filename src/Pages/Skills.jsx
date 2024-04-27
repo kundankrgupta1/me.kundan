@@ -41,6 +41,36 @@ const Skills = () => {
 						)
 					}
 				</SimpleGrid>
+				<br />
+				<Flex
+					display={'flex'}
+					gap={5}
+					justifyContent={'left'}
+					alignItems={'center'}
+				>
+					<Text
+						textTransform={'uppercase'}
+						fontSize={'45px'}
+						fontWeight={700}
+					>tools</Text>
+					<Image src={Hicon} />
+				</Flex>
+				<SimpleGrid minChildWidth='200px' spacing={'12px'}>
+					{
+						data.tools.map((e, ind) =>
+							<Box
+								background={isDark ? "linear-gradient(120deg, rgba(52, 53, 54), rgba(31, 32, 33))" : "linear-gradient(120deg, rgba(245, 245, 245), rgba(213, 222, 235))"}
+								borderRadius="10px"
+								p={5}
+								height={'200px'} width={'200px'}
+								key={ind}
+							>
+								<Image src={e.tool} />
+								<Text>{e.name}</Text>
+							</Box>
+						)
+					}
+				</SimpleGrid>
 			</Box>
 		</Box>
 	)

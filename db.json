@@ -84,6 +84,56 @@
 		{
 			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/tailwind.png",
 			"name": "Tailwind CSS"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/babel.png",
+			"name": "Babel"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/npm.png",
+			"name": "npm"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/vite.png",
+			"name": "vite"
+		}
+	],
+	"tools": [
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/postman.png",
+			"name": "Postman"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/vscode.png",
+			"name": "VS Code"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/replit.png",
+			"name": "Replit"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/git.png",
+			"name": "git"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/github.png",
+			"name": "Github.js"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/vercel.png",
+			"name": "vercel"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/netlify.svg",
+			"name": "netlify"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/slack.png",
+			"name": "Slack"
+		},
+		{
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/wordpress.png",
+			"name": "WordPress"
 		}
 	]
 }
