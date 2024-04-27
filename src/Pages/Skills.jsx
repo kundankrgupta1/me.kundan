@@ -8,7 +8,7 @@ const Skills = () => {
 	const isDark = colorMode === "dark";
 	return (
 		<Box maxWidth={'1300px'} m={'auto'} mt={20} id="skills">
-			<Box width={'1005'}>
+			<Box width={'100%'}>
 				<TitleButton title={"skills that matters"} />
 				<Flex
 					display={'flex'}
