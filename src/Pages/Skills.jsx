@@ -36,6 +36,7 @@ const Skills = () => {
 								key={ind}
 							>
 								<Image src={e.tech} />
+								<Text>{e.name}</Text>
 							</Box>
 						)
 					}

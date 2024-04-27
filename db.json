@@ -41,6 +41,49 @@
 		}
 	],
 	"skills": [
-		{"tech": ""}
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/python.png",
+			"name": "Python"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/java.png",
+			"name": "Java"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/javascript.png",
+			"name": "JavaScript"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/react.png",
+			"name": "React"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/node.png",
+			"name": "Node.js"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/express.png",
+			"name": "exprees.js"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/mongodb.svg",
+			"name": "MongoDB"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/redux.png",
+			"name": "Redux"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/html5.png",
+			"name": "HTML5"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/css.png",
+			"name": "CSS"
+		},
+		{
+			"tech": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/tailwind.png",
+			"name": "Tailwind CSS"
+		}
 	]
 }
