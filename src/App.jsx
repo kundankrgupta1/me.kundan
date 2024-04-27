@@ -16,9 +16,6 @@ const App = () => {
 		<div>
 			<Navbar />
 			<AllRoutes />
-			<Text fontSize={'40px'} textAlign={'center'}>
-				My portfolio under updation....
-			</Text>
 		</div>
 	)
 }

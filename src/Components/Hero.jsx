@@ -12,7 +12,6 @@ const Hero = () => {
 			id="hero"
 		>
 			<Box
-				// borderWidth={2}
 				mt={{ base: 2, sm: 2, md: 2, lg: 0 }}
 				w={{ base: "100%", sm: "100%", md: "100%" }}
 				flexBasis={{base: "100%", lg: '50%' }}
