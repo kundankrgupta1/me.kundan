@@ -28,15 +28,15 @@
 	],
 	"social": [
 		{
-			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/git.png",
+			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/github.png",
 			"link": "https://github.com/kundankrgupta1"
 		},
 		{
-			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/li.png",
+			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/linkedin.png",
 			"link": "https://www.linkedin.com/in/kundankrgupta1/"
 		},
 		{
-			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/icons8-email-96.png",
+			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/email.png",
 			"link": "mailto:kundanprogrammerz@gmail.com"
 		}
 	],
@@ -100,7 +100,7 @@
 	],
 	"tools": [
 		{
-			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/postman.png",
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/postman.webp",
 			"name": "Postman"
 		},
 		{
@@ -117,14 +117,14 @@
 		},
 		{
 			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/github.png",
-			"name": "Github.js"
+			"name": "Github"
 		},
 		{
 			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/vercel.png",
 			"name": "vercel"
 		},
 		{
-			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/netlify.svg",
+			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/netlify.png",
 			"name": "netlify"
 		},
 		{
