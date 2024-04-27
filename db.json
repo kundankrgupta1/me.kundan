@@ -3,7 +3,7 @@
 		{
 			"name": "home",
 			"link": "hero",
-			"offset": 0
+			"offset": -120
 		},
 		{
 			"name": "about",
@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "skills",
-			"link": "skill",
+			"link": "skills",
 			"offset": -120
 		},
 		{
@@ -39,5 +39,8 @@
 			"img": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/icons8-email-96.png",
 			"link": "mailto:kundanprogrammerz@gmail.com"
 		}
+	],
+	"skills": [
+		{"tech": ""}
 	]
 }

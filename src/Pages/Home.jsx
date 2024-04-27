@@ -1,6 +1,7 @@
 import Hero from "../Components/Hero"
 import HrLine from "../Components/HrLine"
 import Abouts from "./Abouts"
+import Skills from "./Skills"
 
 const Home = () => {
 	return (
@@ -9,6 +10,7 @@ const Home = () => {
 			<HrLine />
 			<Abouts />
 			<HrLine />
+			<Skills />
 			<HrLine />
 		</>
 	)

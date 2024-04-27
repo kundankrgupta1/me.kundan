@@ -9,6 +9,7 @@ const Hero = () => {
 			mt={{base: 0, md: 0, lg: 24}}
 			display={'flex'}
 			flexDirection={{ base: 'column-reverse', md: 'column-reverse', lg: "row" }}
+			id="hero"
 		>
 			<Box
 				// borderWidth={2}

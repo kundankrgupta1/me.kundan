@@ -1,14 +1,22 @@
 import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex, IconButton, Image, List, ListItem, Spacer, useColorMode, useDisclosure } from "@chakra-ui/react"
 import data from "../../db.json"
 import logo from "../assets/logo.png"
-// import { Link } from "react-router-dom"
 import { FiMoon, FiSun } from "react-icons/fi"
 import { FaBars } from "react-icons/fa"
-import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import { useEffect, useState } from "react"
 const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
 	const isDark = colorMode === "dark";
 	const { isOpen, onOpen, onClose } = useDisclosure()
+	const [fixed, setFixed] = useState(false);
+	useEffect(() => {
+		window.addEventListener('scroll', () => {
+			window.scrollY > 90 ? setFixed(true) : setFixed(false)
+		})
+	}, [])
+
 	return (
 		<>
 			<Drawer placement="right" onClose={onClose} isOpen={isOpen}>
@@ -21,9 +29,9 @@ const Navbar = () => {
 							{
 								data.category.map((e, index) =>
 									<ListItem key={index}>
-										<Link to={e.link}>
+										<ScrollLink to={e.link}>
 											<Button bg="none" textTransform="uppercase">{e.name}</Button>
-										</Link>
+										</ScrollLink>
 									</ListItem>
 								)
 							}
@@ -31,7 +39,7 @@ const Navbar = () => {
 					</DrawerBody>
 				</DrawerContent>
 			</Drawer>
-			<Box shadow={'md'} w={'100%'}>
+			<Box shadow={'md'} bg={isDark ? "#1A202C":"#fff"} w={'100%'} position={fixed ? 'fixed' : ""} transition={fixed ? "0.5s" : ""} zIndex={fixed ? 10 : 0} top={fixed ? 0 : 0}>
 				<Flex
 					maxWidth="1300px"
 					m='auto'
@@ -39,13 +47,13 @@ const Navbar = () => {
 					py={2}
 					align="center"
 				>
-					<Link to="/">
+					<ScrollLink to="">
 						<Image
 							src={logo}
 							h={{ base: "40px", sm: "40px", md: "50px", lg: "60px" }}
 							px={{ base: "15px", sm: "15px", md: "15px", lg: "0px" }}
 							py={{ base: "2px", sm: "2px", md: "2px" }} />
-					</Link>
+					</ScrollLink>
 					<Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer /><Spacer />
 					<Flex display={{ base: "none", sm: "none", md: "none", lg: "block", xl: "block" }} >
 						<List display='flex' gap={10}>
@@ -55,8 +63,9 @@ const Navbar = () => {
 										fontWeight={300}
 										fontSize={'14px'}
 										textTransform="uppercase"
+										cursor="pointer"
 									>
-										<Link
+										<ScrollLink
 											to={e.link}
 											spy={true}
 											offset={e.offset}
@@ -64,7 +73,7 @@ const Navbar = () => {
 											duration={500}
 										>
 											{e.name}
-										</Link>
+										</ScrollLink>
 									</ListItem>
 								)
 							}
@@ -92,7 +101,7 @@ const Navbar = () => {
 								icon={isDark ? <FiSun /> : <FiMoon />} onClick={toggleColorMode} />
 						</Box>
 						<Spacer />
-						<Link to="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=662a1e099ae9ae3f6894e766" target="_blank">
+						<RouterLink to="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=662a1e099ae9ae3f6894e766" target="_blank">
 							<Button
 								px={{ base: "15px", sm: "15px", md: "30px", lg: "20px" }}
 								py={{ base: "15px", sm: "25px", md: "30px", lg: "20px" }}
@@ -111,7 +120,7 @@ const Navbar = () => {
 							>
 								resume
 							</Button>
-						</Link>
+						</RouterLink>
 						<Spacer />
 						<IconButton fontSize='2xl' variant='ghost' onClick={onOpen} display={{ lg: "none" }}><FaBars />
 						</IconButton>
