@@ -154,7 +154,7 @@
 		{
 			"id": 6,
 			"tool": "https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/netlify.png",
-			"name": "netlify"
+			"name": "Netlify"
 		},
 		{
 			"id": 7,
@@ -183,46 +183,50 @@
 			"deployelink": "https://kundankrgupta1.github.io/hotjar.com/"
 		},
 		{
-			"id": 1,
+			"id": 2,
 			"poster": [
-				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/hotjar.png"
+				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/ecommerce.png"
 			],
 			"tech": [
+				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/javascript.png",
+				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/react.png",
 				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/html5.png",
 				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/css.png"
 			],
-			"title": "Hotjar.com Clone",
-			"des": "Developed a Hotjar.com clone with HTML and CSS3, Replicated the look and feel of the original website, Implemented an accordion feature using HTML and CSS, Developed the project individually within a tight deadline of 5 days",
-			"githublink": "https://github.com/kundankrgupta1/hotjar.com",
-			"deployelink": "https://kundankrgupta1.github.io/hotjar.com/"
+			"title": "Ecommerce Project",
+			"des": "Built responsive e-commerce site with React, Chakra UI, HTML5, CSS3, and JS. Integrated APIs for dynamic content, including user authentication. Features include sliders, product views, and Dark/Light Mode. Ensured optimal UX on desktop and mobile.",
+			"githublink": "https://github.com/kundankrgupta1/eCommerce-Project",
+			"deployelink": "https://e-commerce-project-gray-seven.vercel.app"
 		},
 		{
-			"id": 1,
+			"id": 3,
 			"poster": [
-				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/hotjar.png"
+				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/mynetdiary.png"
 			],
 			"tech": [
+				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/javascript.png",
+				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/react.png",
 				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/html5.png",
 				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/css.png"
 			],
-			"title": "Hotjar.com Clone",
-			"des": "Developed a Hotjar.com clone with HTML and CSS3, Replicated the look and feel of the original website, Implemented an accordion feature using HTML and CSS, Developed the project individually within a tight deadline of 5 days",
-			"githublink": "https://github.com/kundankrgupta1/hotjar.com",
-			"deployelink": "https://kundankrgupta1.github.io/hotjar.com/"
+			"title": "MyNetDiary Clone",
+			"des": "Developed a clone of MyNetDiary.com using React.js, HTML, and CSS. Successfully replicated the look and feel of the original website. Added dynamic features such as navigation and blog section.",
+			"githublink": "https://github.com/kundankrgupta1/MyNetDiary",
+			"deployelink": "https://my-net-diary.vercel.app/"
 		},
 		{
-			"id": 1,
+			"id": 4,
 			"poster": [
-				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/hotjar.png"
+				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/ntt.png"
 			],
 			"tech": [
 				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/html5.png",
 				"https://raw.githubusercontent.com/kundankrgupta1/me.kundan/main/src/assets/css.png"
 			],
-			"title": "Hotjar.com Clone",
-			"des": "Developed a Hotjar.com clone with HTML and CSS3, Replicated the look and feel of the original website, Implemented an accordion feature using HTML and CSS, Developed the project individually within a tight deadline of 5 days",
-			"githublink": "https://github.com/kundankrgupta1/hotjar.com",
-			"deployelink": "https://kundankrgupta1.github.io/hotjar.com/"
+			"title": "New Touch Technology Website",
+			"des": "Builed ntt website using HTML, CSS3 and JavaScript, company hire me to design and develope company website, Developed the project individually within a 2 days",
+			"githublink": "https://github.com/kundankrgupta1/newtouchtechnology",
+			"deployelink": "https://nttpowdercoating.com/"
 		}
 	]
 }

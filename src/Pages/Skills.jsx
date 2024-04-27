@@ -32,11 +32,11 @@ const Skills = () => {
 								background={isDark ? "linear-gradient(120deg, rgba(52, 53, 54), rgba(31, 32, 33))" : "linear-gradient(120deg, rgba(245, 245, 245), rgba(213, 222, 235))"}
 								borderRadius="10px"
 								p={5}
-								height={'200px'} width={'200px'}
+								height={'210px'} width={'200px'}
 								key={ind}
 							>
 								<Image src={e.tech} />
-								<Text>{e.name}</Text>
+								<Text textAlign={'center'} fontWeight={600}>{e.name}</Text>
 							</Box>
 						)
 					}
@@ -62,11 +62,11 @@ const Skills = () => {
 								background={isDark ? "linear-gradient(120deg, rgba(52, 53, 54), rgba(31, 32, 33))" : "linear-gradient(120deg, rgba(245, 245, 245), rgba(213, 222, 235))"}
 								borderRadius="10px"
 								p={5}
-								height={'200px'} width={'200px'}
+								height={'210px'} width={'200px'}
 								key={ind}
 							>
 								<Image src={e.tool} />
-								<Text>{e.name}</Text>
+								<Text textAlign={'center'} fontWeight={600}>{e.name}</Text>
 							</Box>
 						)
 					}
