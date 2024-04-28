@@ -25,14 +25,14 @@ const Skills = () => {
 				</Flex>
 			</Box>
 			<Box>
-				<SimpleGrid minChildWidth='200px' spacing={'12px'}>
+				<SimpleGrid minChildWidth='150px' spacingX={0} spacingY={4}>
 					{
 						data.skills.map((e, ind) =>
 							<Box
 								background={isDark ? "linear-gradient(120deg, rgba(52, 53, 54), rgba(31, 32, 33))" : "linear-gradient(120deg, rgba(245, 245, 245), rgba(213, 222, 235))"}
 								borderRadius="10px"
 								p={5}
-								height={'210px'} width={'200px'}
+								height={'160px'} width={'150px'}
 								key={ind}
 							>
 								<Image src={e.tech} />
@@ -55,14 +55,14 @@ const Skills = () => {
 					>tools</Text>
 					<Image src={Hicon} />
 				</Flex>
-				<SimpleGrid minChildWidth='200px' spacing={'12px'}>
+				<SimpleGrid minChildWidth='150px' spacingX={0} spacingY={4}>
 					{
 						data.tools.map((e, ind) =>
 							<Box
 								background={isDark ? "linear-gradient(120deg, rgba(52, 53, 54), rgba(31, 32, 33))" : "linear-gradient(120deg, rgba(245, 245, 245), rgba(213, 222, 235))"}
 								borderRadius="10px"
 								p={5}
-								height={'210px'} width={'200px'}
+								height={'160px'} width={'150px'}
 								key={ind}
 							>
 								<Image src={e.tool} />

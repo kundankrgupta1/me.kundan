@@ -1,7 +1,4 @@
 import { Box, Button, Flex, FormControl, Image, Input, Spacer, Text, Textarea, useColorMode } from '@chakra-ui/react'
-import { MdOutlineMailOutline } from "react-icons/md";
-import { IoIosCall } from "react-icons/io";
-import { FaLocationDot } from "react-icons/fa6";
 import Social from '../Components/Social';
 import icon2 from "../assets/icon2-2.png"
 import { IoIosSend } from "react-icons/io";
