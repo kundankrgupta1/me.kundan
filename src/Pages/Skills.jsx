@@ -7,7 +7,9 @@ const Skills = () => {
 	const { colorMode } = useColorMode();
 	const isDark = colorMode === "dark";
 	return (
-		<Box maxWidth={'1300px'} m={'auto'} mt={20} id="skills">
+		<Box maxWidth={'1300px'} m={'auto'} mt={20} id="skills"
+			p={{ base: 2, md: 5, lg: 0 }}
+		>
 			<Box width={'100%'}>
 				<TitleButton title={"skills that matters"} />
 				<Flex
@@ -24,8 +26,10 @@ const Skills = () => {
 					<Image src={Hicon} />
 				</Flex>
 			</Box>
-			<Box>
-				<SimpleGrid minChildWidth='150px' spacingX={0} spacingY={4}>
+			<Box
+				m={'auto'}
+			>
+				<SimpleGrid minChildWidth='150px' spacing={10}>
 					{
 						data.skills.map((e, ind) =>
 							<Box
@@ -55,7 +59,7 @@ const Skills = () => {
 					>tools</Text>
 					<Image src={Hicon} />
 				</Flex>
-				<SimpleGrid minChildWidth='150px' spacingX={0} spacingY={4}>
+				<SimpleGrid minChildWidth='150px' spacing={10}>
 					{
 						data.tools.map((e, ind) =>
 							<Box

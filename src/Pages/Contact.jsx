@@ -34,19 +34,25 @@ const Contact = () => {
 	const { colorMode } = useColorMode();
 	const isDark = colorMode === "dark";
 	return (
-		<Flex maxWidth={'1300px'} m={'auto'} mt={20} id="contact">
+		<Flex maxWidth={'1300px'} m={'auto'} mt={20} id="contact"
+			flexDirection={{ base: 'column', sm: 'column', md: 'column', lg: 'row' }}
+			gap={{ base: 5, sm: 5, md: 10, lg: 10 }}
+			p={{ base: 2, md: 5, lg: 0 }}
+		>
 			<Box flexBasis={'40%'}
-				// borderWidth={2}
 				display={'flex'}
 				justifyContent={'center'}
 				flexDirection={'column'}
 				gap={10}
 			>
-				<Text textTransform={'uppercase'} mb={-8} fontWeight={700}>contact info</Text>
+				<Text textTransform={'uppercase'} mb={-8} fontWeight={700}
+					fontSize={{ base: "18px", sm: "18px", md: "30px", lg: "30px" }}
+				>contact info</Text>
 				<Flex gap={5}>
 					<Box bg="linear-gradient(145deg, #e2e8ec, #ffffff)"
 						boxShadow={isDark ? "" : "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff"}
-						borderRadius="7px" p={3}>
+						borderRadius="7px" p={3}
+					>
 						<Image src={email} h={14} />
 					</Box>
 					<Box>
@@ -93,8 +99,9 @@ const Contact = () => {
 						fontSize={{ base: "18px", sm: "18px", md: "30px", lg: "30px" }}
 						mt={8}
 					>
-						<Text as="span" textColor={'#FD185E'}>Let&#x27;s</Text> work together
-					</Text><Spacer /><Image src={icon2} /></Flex>
+						<Text as="span" textColor={'#FD185E'}>Let&#x27;s</Text> connect me</Text>
+					<Spacer /><Image src={icon2} />
+				</Flex>
 				<form style={{ marginTop: "25px" }} onSubmit={onSubmit}>
 					<FormControl px={5} display={'flex'} flexDirection={'column'} gap={10} width={'100%'}>
 						<Input type='text' placeholder='Name*' borderColor="black" required />
