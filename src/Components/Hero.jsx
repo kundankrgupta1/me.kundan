@@ -24,10 +24,10 @@ const Hero = () => {
 			>
 				<TitleButton title={"welcome to my world"} />
 				<Text
-					fontSize={{ base: "25px", sm: "30px", md: "45px", lg: "45px" }}
+					fontSize={{ base: "25px", sm: "30px", md: "40px", lg: "40px" }}
 					fontWeight={700}
 				>
-					Hi,👋I&#x27;m <Text as="span" textColor={'#FD185E'}>Kundan Kr Gupta</Text>
+					Hi,👋I&#x27;m <Text as="span" textColor={'#FD185E'}>Kundan Kumar Gupta</Text>
 				</Text>
 				<Text
 					fontWeight={700}

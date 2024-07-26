@@ -39,7 +39,7 @@ const Navbar = () => {
 					</DrawerBody>
 				</DrawerContent>
 			</Drawer>
-			<Box shadow={'md'} bg={isDark ? "#1A202C":"#fff"} w={'100%'} position={fixed ? 'fixed' : ""} transition={fixed ? "0.5s" : ""} zIndex={fixed ? 10 : 0} top={fixed ? 0 : 0}>
+			<Box shadow={'md'} bg={isDark ? "#1A202C" : "#fff"} w={'100%'} position={fixed ? 'fixed' : ""} transition={fixed ? "0.5s" : ""} zIndex={fixed ? 10 : 0} top={fixed ? 0 : 0}>
 				<Flex
 					maxWidth="1300px"
 					m='auto'
