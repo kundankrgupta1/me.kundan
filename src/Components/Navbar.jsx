@@ -101,7 +101,7 @@ const Navbar = () => {
 								icon={isDark ? <FiSun /> : <FiMoon />} onClick={toggleColorMode} />
 						</Box>
 						<Spacer />
-						<RouterLink to="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=662a1e099ae9ae3f6894e766" target="_blank">
+						<RouterLink to="https://drive.google.com/drive/folders/1QcqTvtJFs4ci8tsnBgDDPOIcdYjHILH9?usp=sharing" target="_blank">
 							<Button
 								px={{ base: "15px", sm: "15px", md: "30px", lg: "20px" }}
 								py={{ base: "15px", sm: "25px", md: "30px", lg: "20px" }}
