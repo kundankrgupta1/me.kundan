@@ -5,7 +5,7 @@ import { FiMoon, FiSun } from "react-icons/fi"
 import { FaBars } from "react-icons/fa"
 import { Link as ScrollLink } from "react-scroll";
 import { useEffect, useState } from "react"
-import KundanKumarGupta from "../assets/MyResume.pdf"
+import KundanKumarGupta from "../assets/KundanKumarGupta.pdf"
 const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
 	const isDark = colorMode === "dark";
