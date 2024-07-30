@@ -3,9 +3,9 @@ import data from "../../db.json"
 import logo from "../assets/logo.png"
 import { FiMoon, FiSun } from "react-icons/fi"
 import { FaBars } from "react-icons/fa"
-import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import { useEffect, useState } from "react"
+import MyResume from "../assets/MyResume.pdf"
 const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
 	const isDark = colorMode === "dark";
@@ -17,6 +17,16 @@ const Navbar = () => {
 		})
 	}, [])
 
+	const handleDownload = (e) => {
+		e.preventDefault();
+		const link = document.createElement('a');
+		link.href = MyResume;
+		link.download = "KundanKrGupta";
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+		window.open(MyResume, '_blank', 'noopener,noreferrer');
+	}
 	return (
 		<>
 			<Drawer placement="right" onClose={onClose} isOpen={isOpen}>
@@ -101,7 +111,13 @@ const Navbar = () => {
 								icon={isDark ? <FiSun /> : <FiMoon />} onClick={toggleColorMode} />
 						</Box>
 						<Spacer />
-						<RouterLink to="https://drive.google.com/drive/folders/1QcqTvtJFs4ci8tsnBgDDPOIcdYjHILH9?usp=sharing" target="_blank">
+						<a
+							href={MyResume}
+							target="_blank"
+							rel="noopener noreferrer"
+							download="KundanKrGupta"
+							onClick={handleDownload}
+						>
 							<Button
 								px={{ base: "15px", sm: "15px", md: "30px", lg: "20px" }}
 								py={{ base: "15px", sm: "25px", md: "30px", lg: "20px" }}
@@ -120,7 +136,7 @@ const Navbar = () => {
 							>
 								resume
 							</Button>
-						</RouterLink>
+						</a>
 						<Spacer />
 						<IconButton fontSize='2xl' variant='ghost' onClick={onOpen} display={{ lg: "none" }}><FaBars />
 						</IconButton>
