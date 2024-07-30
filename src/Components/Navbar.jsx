@@ -5,7 +5,7 @@ import { FiMoon, FiSun } from "react-icons/fi"
 import { FaBars } from "react-icons/fa"
 import { Link as ScrollLink } from "react-scroll";
 import { useEffect, useState } from "react"
-import MyResume from "../assets/MyResume.pdf"
+import KundanKumarGupta from "../assets/MyResume.pdf"
 const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
 	const isDark = colorMode === "dark";
@@ -20,12 +20,12 @@ const Navbar = () => {
 	const handleDownload = (e) => {
 		e.preventDefault();
 		const link = document.createElement('a');
-		link.href = MyResume;
+		link.href = KundanKumarGupta;
 		link.download = "KundanKumarGupta";
 		document.body.appendChild(link);
 		link.click();
 		document.body.removeChild(link);
-		window.open(MyResume, '_blank', 'noopener,noreferrer');
+		window.open(KundanKumarGupta, '_blank', 'noopener,noreferrer');
 	}
 	return (
 		<>
@@ -112,7 +112,7 @@ const Navbar = () => {
 						</Box>
 						<Spacer />
 						<a
-							href={MyResume}
+							href={KundanKumarGupta}
 							target="_blank"
 							rel="noopener noreferrer"
 							download="KundanKumarGupta"
