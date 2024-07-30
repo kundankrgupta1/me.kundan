@@ -21,7 +21,7 @@ const Navbar = () => {
 		e.preventDefault();
 		const link = document.createElement('a');
 		link.href = MyResume;
-		link.download = "KundanKrGupta";
+		link.download = "KundanKumarGupta";
 		document.body.appendChild(link);
 		link.click();
 		document.body.removeChild(link);
@@ -115,7 +115,7 @@ const Navbar = () => {
 							href={MyResume}
 							target="_blank"
 							rel="noopener noreferrer"
-							download="KundanKrGupta"
+							download="KundanKumarGupta"
 							onClick={handleDownload}
 						>
 							<Button
