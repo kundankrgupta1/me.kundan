@@ -11,7 +11,6 @@ const Navbar = () => {
 	const isDark = colorMode === "dark";
 	const { isOpen, onOpen, onClose } = useDisclosure()
 	const [fixed, setFixed] = useState(false);
-
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
 			window.scrollY > 90 ? setFixed(true) : setFixed(false)
@@ -26,9 +25,8 @@ const Navbar = () => {
 		document.body.appendChild(link);
 		link.click();
 		document.body.removeChild(link);
-		window.open(kundan_kumar_gupta, '_blank');
+		window.open(kundan_kumar_gupta, '_blank', 'noopener,noreferrer');
 	}
-	
 	return (
 		<>
 			<Drawer placement="right" onClose={onClose} isOpen={isOpen}>
@@ -116,11 +114,11 @@ const Navbar = () => {
 						<a
 							href={kundan_kumar_gupta}
 							target="_blank"
-							// rel="noopener noreferrer"
+							rel="noopener noreferrer"
 							download="kundan_kumar_gupta"
-							onClick={handleDownload}
 						>
 							<Button
+								onClick={handleDownload}
 								px={{ base: "15px", sm: "15px", md: "30px", lg: "20px" }}
 								py={{ base: "15px", sm: "25px", md: "30px", lg: "20px" }}
 								borderRadius="5px"
