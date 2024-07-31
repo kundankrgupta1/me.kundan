@@ -5,12 +5,13 @@ import { FiMoon, FiSun } from "react-icons/fi"
 import { FaBars } from "react-icons/fa"
 import { Link as ScrollLink } from "react-scroll";
 import { useEffect, useState } from "react"
-import KundanKumarGupta from "../assets/KundanKumarGupta.pdf"
+import kundan_kumar_gupta from "../assets/kundan_kumar_gupta.pdf"
 const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
 	const isDark = colorMode === "dark";
 	const { isOpen, onOpen, onClose } = useDisclosure()
 	const [fixed, setFixed] = useState(false);
+
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
 			window.scrollY > 90 ? setFixed(true) : setFixed(false)
@@ -20,13 +21,14 @@ const Navbar = () => {
 	const handleDownload = (e) => {
 		e.preventDefault();
 		const link = document.createElement('a');
-		link.href = KundanKumarGupta;
-		link.download = "KundanKumarGupta";
+		link.href = kundan_kumar_gupta;
+		link.download = "kundan_kumar_gupta";
 		document.body.appendChild(link);
 		link.click();
 		document.body.removeChild(link);
-		window.open(KundanKumarGupta, '_blank', 'noopener,noreferrer');
+		window.open(kundan_kumar_gupta, '_blank');
 	}
+	
 	return (
 		<>
 			<Drawer placement="right" onClose={onClose} isOpen={isOpen}>
@@ -112,10 +114,10 @@ const Navbar = () => {
 						</Box>
 						<Spacer />
 						<a
-							href={KundanKumarGupta}
+							href={kundan_kumar_gupta}
 							target="_blank"
-							rel="noopener noreferrer"
-							download="KundanKumarGupta"
+							// rel="noopener noreferrer"
+							download="kundan_kumar_gupta"
 							onClick={handleDownload}
 						>
 							<Button
