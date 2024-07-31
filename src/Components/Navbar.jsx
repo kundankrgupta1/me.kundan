@@ -118,7 +118,7 @@ const Navbar = () => {
 							download="kundan_kumar_gupta"
 							onClick={handleDownload}
 						>
-							{/* <Button
+							<Button
 								px={{ base: "15px", sm: "15px", md: "30px", lg: "20px" }}
 								py={{ base: "15px", sm: "25px", md: "30px", lg: "20px" }}
 								borderRadius="5px"
@@ -134,8 +134,8 @@ const Navbar = () => {
 								textTransform={'uppercase'}
 								_hover={'none'}
 							>
-							</Button> */}
-							resume
+								resume
+							</Button>
 						</a>
 						<Spacer />
 						<IconButton fontSize='2xl' variant='ghost' onClick={onOpen} display={{ lg: "none" }}><FaBars />
